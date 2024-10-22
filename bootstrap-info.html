@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Інформація про Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Фреймворк Bootstrap</h1>
+
+        <!-- Акордеон з цікавою інформацією про Bootstrap -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Історія Bootstrap
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Bootstrap був створений Марком Отто та Джейкобом Торнтоном у Twitter у 2011 році. Основною метою було забезпечити єдиний інструмент для внутрішніх проєктів компанії. З часом фреймворк перетворився на популярний інструмент для веб-розробників, що значно спрощує процес створення адаптивних сайтів.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Основні компоненти Bootstrap
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Bootstrap надає широкий набір компонентів, таких як кнопки, форми, навігаційні меню, модальні вікна, каруселі та інші інтерфейсні елементи. Він також містить сіткову систему, яка дозволяє легко створювати адаптивні макети для різних пристроїв.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Адаптивність у Bootstrap
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Bootstrap використовує підхід "mobile-first", що означає, що дизайн починається з мобільних пристроїв і поступово масштабується для більших екранів. Сіткова система та утиліти адаптивності роблять Bootstrap одним із найзручніших інструментів для створення сайтів, що добре виглядають на різних пристроях.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Переваги використання Bootstrap
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Серед основних переваг Bootstrap є легкість використання, велика кількість готових компонентів, хороша документація, а також широка підтримка в спільноті розробників. Це робить Bootstrap чудовим вибором для як новачків, так і досвідчених розробників.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Кнопка повернення на головну сторінку -->
+        <div class="mt-4 text-center">
+            <a href="index.html" class="btn btn-secondary">Повернутися на головну сторінку</a>
+        </div>
+    </div>
+
+    <!-- Підключення локальних файлів JS -->
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
